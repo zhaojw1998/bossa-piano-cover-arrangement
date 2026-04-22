@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/data2/zhaojw/LAVIS/musecoco/hf_musecoco')
+sys.path.append(str(__import__('pathlib').Path(__file__).resolve().parents[2]))
 from midi_utils.midiprocessor import midi_utils, MidiEncoder, enc_remigen_utils, enc_remigen2_utils
 
 
