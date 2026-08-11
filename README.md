@@ -2,7 +2,7 @@
 
  Repository for *J. Zhao, G. Xia, Z. Wang, and Y. Wang. Learning Music Style For Piano Arrangement Through Cross-Modal Bootstrapping, in Proceedings of ISMIR 2026*.
 
-- 📄 **Paper**: tbd
+- 📄 **Paper**: https://arxiv.org/abs/2608.03050
 - 🎧 **Demo page**: https://zhaojw1998.github.io/bossa/
 - 💾 **Model checkpoints**: [Google Drive (`checkpoints.tar.gz`)](https://drive.google.com/file/d/1DUzr670TXi1WK1xrIJadigZqY6KRlaro/view?usp=sharing)
 
@@ -133,7 +133,7 @@ python train_stage2.py              # arrangement training; set stage_1_checkpoi
 
 ## Acknowledgements
 
-This work is builds upon [Musecoco's huggingface implementation]( https://github.com/Sonata165/UnofficialMuseCoco) generously shared by Dr. Longshen Ou.
+This work builds upon [Musecoco's huggingface implementation]( https://github.com/Sonata165/UnofficialMuseCoco) generously shared by Dr. Longshen Ou.
 
 We also build on [BLIP-2](https://github.com/salesforce/LAVIS) for the Q-Former architecture and
 two-stage bootstrapping recipe, [MusicGen](https://github.com/facebookresearch/audiocraft) for the
